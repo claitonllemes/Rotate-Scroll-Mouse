@@ -9,7 +9,10 @@ O código abaixo adiciona um botão flutuante do Whatsapp a uma página na plata
 
 ```javascript
 
+// Animate Scroll Mouse Greatpages v. 1.0.0 - Ⓒ Copyright 2023 Claiton Lemes
+
 <script>
+
   let mouse_scroll = document.querySelectorAll("#ElementID_01, #ElementID_02, #ElementID_03");
   let angulos = {};
 
@@ -25,6 +28,7 @@ O código abaixo adiciona um botão flutuante do Whatsapp a uma página na plata
       elemento.style.transform = "rotate(" + angulos[id] + "deg)";
     });
   });
+
 </script>
 
 ```
