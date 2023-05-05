@@ -1,4 +1,4 @@
-<script>
+
   let mouse_scroll = document.querySelectorAll("#ElementID_01, #ElementID_02, #ElementID_03");
   let angulos = {};
 
@@ -14,4 +14,3 @@
       elemento.style.transform = "rotate(" + angulos[id] + "deg)";
     });
   });
-</script>
